@@ -5,6 +5,7 @@ public class string_method {
         String s= "salmamkhan";
         String y=toUpper(s);
         System.out.println(y);
+        System.out.println(toUpper("vscode"));
     }
     public static String toUpper(String s){
         return s.toUpperCase();
